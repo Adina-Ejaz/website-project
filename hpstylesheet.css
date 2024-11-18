@@ -1,0 +1,377 @@
+*{
+margin: 0;
+
+}
+
+#header{
+background-image: url("hpimages/headerbg.jpg");
+margin: 0px;
+width: 100%;
+padding:  0;
+
+}
+
+.banner-text h3{
+text-align: center;
+color: #613613;
+font-family: 'Merriweather', serif;
+font-size: 50px;
+}
+.banner-text h1{
+text-align: center;
+color: #613613;
+font-family: 'Homemade Apple', cursive;
+position: relative;
+bottom: -30px;
+}
+.move h1{
+text-align: center;
+color: #613613;
+font-family: 'Homemade Apple', cursive;
+position: relative;
+bottom: 20px;
+}
+.menu-items{
+background:#A56639;
+}
+.menu-items li {
+padding-left: 80px;
+display: inline-block;
+text-align:center;
+font-family: 'Merriweather', serif;
+} 
+.menu-items li a{
+padding-left: 110px;
+color: #FFFAF1;
+text-decoration: none; 
+}
+
+
+.headings{
+text-align: center;
+font-family: 'Homemade Apple', cursive;
+color: #613613;
+font-size: 25px;
+padding-top: 40px;
+}
+
+
+#recommendations{
+background: #FFFAF1;
+width: 100%;
+padding:  0;
+
+}
+
+
+
+.recommendations-box{
+width: 80%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+text-align: center;
+}
+
+.recommendations {
+flex-basis: 50%;
+}
+.recommendations-imgs{
+flex-basis: 50%;
+margin: auto;
+}
+.image1:hover{
+transform: translateY(-7px);
+}
+.image2:hover{
+transform: translateY(-7px);
+}
+.image3:hover{
+transform: translateY(-7px);
+}
+.recommendations h1{
+text-align: left;
+margin-bottom: 10px;
+font-weight: 100;
+color: #235347;
+font-family: 'Merriweather', serif;
+text-decoration: underline;
+border: 3px dashed #8EB69B;
+}
+.recommendations-desc{
+display: flex;
+align-items: center;
+margin-bottom: 40px;
+border: 3px dashed #8EB69B;
+}
+.recommendations-text p{
+color: #8EB69B;
+text-align: left;
+font-family: 'Merriweather', serif;
+}
+.banner-btn{
+margin: 70px auto 0;
+text-align: left;
+position: relative;
+bottom: 50px;
+}
+.banner-btn a{
+width: 150px;
+text-decoration: none;
+display: inline-block;
+margin: 0 10px;
+padding: 12px 0;
+color: #83B69B;
+border: 3px dashed #8EB69B;
+position: relative;
+z-index: 1;
+text-align: center;
+font-family: 'Homemade Apple', cursive;
+background: #235347;
+}
+.banner-btn a span{
+width: 0%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: #613613;
+z-index: -1;
+transition: 0.5s;
+}
+.banner-btn a:hover span {
+width: 100%;
+}
+.image1, .image2, .image3{
+width: 200px;
+border: 10px solid #A56639;
+border-radius: 20px;
+}
+.image1{
+position: relative;
+z-index: 1;
+margin: 50px auto;
+}
+.image2{
+position: relative;
+left: -50px;
+bottom: 20px;
+z-index: 2;
+}
+.image3{
+position: relative;
+top: -90px;
+z-index: 3;
+}
+
+
+
+#toppicks {
+width: 100%;
+padding:  0;
+background-image: url('hpimages/toppicksbg.webp');
+border-top: 5px dashed #8EB69B;
+border-bottom: 5px dashed #8EB69B;
+}
+.toppicks-box{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: auto;
+}
+.box{
+flex-basis: 23%;
+text-align: center;
+border-radius: 7px;
+margin-bottom: 20px;
+color: #fff;
+position: relative;
+
+}
+.box img{
+width: 100%;
+border-radius: 7px;
+border: 5px solid #8eb69b;
+}
+
+.overlay{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+border-radius: 7px;
+cursor: pointer;
+background: linear-gradient(rgba(0,0,0,0.5),#DAC0A7);
+opacity: 0;
+transition: 1s;
+border: 5px solid #fffaf1;
+}
+.box:hover .overlay{
+opacity: 10;
+}
+
+.box-desc{
+width: 80%;
+position: absolute;
+bottom: 40%;
+left: 50%;
+transform: translateX(-50%);
+}
+hr {
+background: #235347;
+height: 2px;
+border: 0;
+margin: 15px auto;
+width: 60%;
+}
+.box-desc p{
+font-size: 15px;
+font-family: 'Merriweather', serif;
+color: #235347;
+}
+.box-desc h3{
+font-size: 19px;
+font-family: 'Merriweather', serif;
+color: #235347;
+}
+
+#celebnews{
+background: #2F847C;
+width: 100%;
+padding:  0;
+
+}
+.celebheading h1{
+font-family: 'Homemade Apple', cursive;
+color:#235347;
+text-align: center;
+padding-top: 60px;
+font-size: 40px;
+text-decoration: underline  #fffaf1;
+}
+
+.joepic1, .joepic2, .joepic3{
+width: 15%;
+border-style: solid;
+border-width: 10px;
+border-color: #2F847C;
+}
+.joepic1{
+margin-left: 15%;
+
+}
+.joepic2{
+position: relative;
+right: 30px;
+}
+.joepic3{
+position: relative;
+right: 370px;
+top:180px;
+}
+.sidetext{
+transform: rotate(-90deg);
+position: relative;
+left: -430px;
+bottom: 630px;
+}
+
+.sidetext p{
+font-family: 'Merriweather', serif;
+font-size: 12px;
+color: #fffaf1;
+}
+.joe{
+width: 40%;
+position: relative;
+left: 800px;
+bottom: 300px;
+
+}
+.joe h1{
+font-family: 'Homemade Apple', cursive;
+color: #235347;
+}
+.joepics{
+margin-top: 10%;
+}
+.newstext p {
+font-family: 'Merriweather', serif;
+font-size: 20px;
+color:#FFFAF1;
+}
+
+
+/*--footer--*/
+
+#footer{
+padding: 100px 0 20px;
+background: #F4F0DB;
+width: 100%;
+
+}
+.footer-row{
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+flex-basis: 45%;
+padding: 10px;
+margin-bottom: 20px;
+}
+.footer-right{
+text-align: right;
+}
+.footer-row h1{
+margin: 10px 0;
+font-family: 'Merriweather', serif;
+color: #235347;
+}
+.footer-row p{
+line-height: 35px;
+font-family: 'Merriweather', serif;
+color: #235347;
+}
+.email{
+color: #009688;
+}
+.social-links{ 
+text-align: center;
+}
+.social-links .fa{
+height: 40px;
+width: 40px;
+font-size: 20px;
+line-height: 40px;
+border: 1px solid #613613;
+margin: 40px 5px 0;
+color: #613613;
+cursor: pointer;
+transition: .5s;
+}
+.social-links .fa:hover{
+background: #009688;
+color: #fff;
+transform: translateY(-7px);
+}
+.title-text h1{
+color: #613613;
+text-align: center;
+font-family: 'Homemade Apple', cursive;
+}
+.title-text p{
+color: #235347;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+
